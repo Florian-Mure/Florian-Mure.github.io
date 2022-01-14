@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWIPE Web</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+</head>
+<body>
+    <section class="top-page">
+        <header class="header">
+            <img src="images/SWIPE_WEB-logo.svg" alt="Logo du site">
+            <nav class="nav">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#best-items">Nos meilleurs site web</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </nav>
+        </header>
+        <div class="landing-page">
+            <img class="banniere" src="./images/bannière.gif">
+            <!-- <a href="#services" class="scroll-down">Scroll <i class="fas fa-angle-down"></i></a> -->
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="service-item">
+            <i class="fa fa-comments delivery-icon"></i>
+            <p class="service-details">Comunication</p>
+        </div>
+        <div class="service-item">
+            <i class="fas fa-people-carry delivery-icon"></i>
+            <p class="service-details">Convivialité</p>
+        </div>
+        <div class="service-item">
+            <i class="fa fa-laptop delivery-icon"></i>
+            <p class="service-details">Site Web</p>
+        </div>
+    </section>
+    <section class="best-items" id="best-items">
+        <h2 class="section-title">Nos meilleurs site web</h2>
+        <div class="best-plants">
+            <a class="plant-box plant1 no-grid">
+                <div class="plant-details">
+                    <p class="plant-name">OktoPod</p>
+                    <p class="plant-price">Janvier 2022</p>
+                </div>
+            </a>
+            <a class="plant-box plant2 no-grid">
+                <div class="plant-details">
+                    <p class="plant-name">Open Studio</p>
+                    <p class="plant-price">Février 2022</p>
+                </div>
+            </a>
+            <a class="plant-box plant3 no-grid">
+                <div class="plant-details">
+                    <p class="plant-name">Ibiz</p>
+                    <p class="plant-price">Juin 2022</p>
+                </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title titre-contacter">Nous contacter</h2>
+        <form class="contact" action="" method="get">
+
+            <div class="container">
+                <div class="nom-container">
+                    <input class="input-text " type="text" autocomplete="off" id="nom" placeholder="Nom">
+                </div>
+    
+                <div class="prenom-container">
+                    <input class="input-text " type="text" autocomplete="off" id="prenom" placeholder="Prenom">
+                </div>
+        
+                <div class="email-container">
+                    <input class="input-text " type="text" autocomplete="off" id="email" placeholder="Email">
+                </div>
+            </div>
+    
+            <button class="bouton-valider" type="submit">Valider</button>
+        </form>
+    </section>
+
+    <footer>
+        <p class="copyright">&copy; 2022 - SWIPE Web</p>
+    </footer>
+</body>
+</html>
