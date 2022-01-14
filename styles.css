@@ -219,13 +219,6 @@ nav.nav li a {
   transform: scale(1.2);
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 35vh;
-}
-
 /* footer */
 
 footer {
